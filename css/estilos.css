@@ -1,0 +1,92 @@
+body {
+  background: transparent;
+  font-family: 'Mulish', sans-serif;
+}
+
+
+.nav-font {
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+  text-shadow: 3px 5px 8px rgb(35 164 85 / 30%);
+
+}
+
+.css-button-fully-rounded--sky {
+  display: inline-block;
+  background-color: transparent;
+  border: 3px solid #165C5A;
+  color: #badad8;
+  /* text-transform: uppercase; */
+  /* letter-spacing: 1px; */
+  position: relative;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all ease-out 200ms;
+  animation: efecto-texto-luz 3s ease-in infinite normal both;
+  text-shadow: 0 0 0 #165C5A;
+  margin-right: 10px;
+}
+
+.css-button-fully-rounded--sky:hover {
+  color: #38EDE8;
+  text-shadow: 0 0 3px #38EDE8;
+  animation: none !important;
+}
+
+.nav-item a {
+  color: #165C5A !important;
+}
+
+.inicio-inner {
+  padding-top: 140px;
+
+}
+
+.card-form {
+  opacity: 0.9;
+}
+
+.bg-mix {
+  background: linear-gradient(180deg, var(--light) 50%, var(--grey) 0);
+}
+
+.mensaje a {
+  color: #ffffff;
+  margin-right: .5rem;
+  display: inline-block;
+}
+
+.mensaje a:hover {
+  color: #8ebdad;
+  transform: scale(1.4)
+}
+
+.stat {
+  border-right: 1px solid var(--grey);
+}
+
+#fot-noti {
+  opacity: 0.5;
+}
+
+
+.container-fluid {
+  max-height: 400px !important;
+}
+
+@media (max-width: 768px) {
+
+
+  #noticias {
+    display: block;
+  }
+
+  #noticias p,
+  h3 {
+    font-size: larger;
+  }
+
+
+
+
+}

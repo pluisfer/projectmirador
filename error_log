@@ -1,0 +1,8 @@
+[21-Mar-2022 02:44:09 UTC] PHP Warning:  mysqli::__construct(): (HY000/2005): Unknown MySQL server host '107.180.41.159:3306' (0) in /home/gvp3bu2rfkft/public_html/includes/connect.php on line 5
+[21-Mar-2022 02:44:09 UTC] PHP Notice:  Undefined index: name_usu in /home/gvp3bu2rfkft/public_html/add.php on line 10
+[21-Mar-2022 02:44:09 UTC] PHP Notice:  Undefined index: phone_usu in /home/gvp3bu2rfkft/public_html/add.php on line 11
+[21-Mar-2022 02:44:09 UTC] PHP Notice:  Undefined index: email in /home/gvp3bu2rfkft/public_html/add.php on line 12
+[21-Mar-2022 02:44:09 UTC] PHP Notice:  Undefined index: torreApto in /home/gvp3bu2rfkft/public_html/add.php on line 13
+[21-Mar-2022 02:44:09 UTC] PHP Notice:  Undefined index: sel_apto in /home/gvp3bu2rfkft/public_html/add.php on line 14
+[21-Mar-2022 02:44:09 UTC] PHP Notice:  Undefined index: mensaje in /home/gvp3bu2rfkft/public_html/add.php on line 15
+[21-Mar-2022 02:44:09 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/gvp3bu2rfkft/public_html/add.php on line 22
